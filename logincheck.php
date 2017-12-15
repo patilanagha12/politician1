@@ -19,9 +19,5 @@ if(isset($_POST['login']))
         echo"<script> alert('Login Successfully');window.location='admin/index.php';</script>";
        }
     }
-    else
-    {
-      echo "login fail";
-    }
 }
 ?>

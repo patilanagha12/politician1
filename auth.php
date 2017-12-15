@@ -1,8 +1,13 @@
-<?php
-include 'dbconfig.php';
+<?php  
+
 session_start();
-if (!isset($_SESSION['adminid']))
- {
-echo "<script>window.location='../login.php'</script>";
+
+include 'dbConfig.php';
+
+if (!isset($_SESSION['adminid'])) 
+{
+	
+	echo "<script>window.location='login.php';</script>";
 }
-?>
+
+?>0
